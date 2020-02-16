@@ -27,15 +27,18 @@
         <label for="radio"> class="radio-inline">
             <input type="radio" value="female" name="sex" id="female" required />Female
         </label><br/>
-        
 
+        <div class="dates">
+        <label>Day</label>
+        <input type="text" name="day" id="day" placeholder="type in figures" required><br/>
+        <label>Month</label>
+        <input type="text" name="month" id="month" placeholder="type in figures" required><br/>
+        <label>Year</label>
+        <input type="text" name="year" id="year" placeholder="type in figures" required>
 
-
-
-
-
-
-    </form>
+        <button type="submit" onclick="getName()" onsubmit="event,preventDefault()">Submit</button>
+        </div>
+  </form>
 
 
 
