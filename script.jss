@@ -7,6 +7,16 @@ function getName(){
     var month=parseInt(document.getElementById("month").value);
     var year=parseInt(document.getElementById("year").value);
     var male=document.getElementById("male");
-    var female=document.getElementById("female");
-    
+    var female=document.getElementById("female");   
 }
+
+if(day<=0||day>31){
+    alert("please enter a valid date!)
+}
+else if(month<=0||month>12){
+    alert("please enter a valid month!")
+}
+else if(year>2020){
+    alert("please enter a valid year!")
+}
+var day= new Date(year + "/" + month + "/" + day);
