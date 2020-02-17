@@ -6,42 +6,32 @@
     <title>Akhan Names</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div class="container">
+    <div class="jumbotron">
+        <h1>AKHAN NAMES</h1>
+    </div>
+    <div class="row">
+    <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.</p> 
+    <p>These "day names" have further meanings concerning the soul and character of the person.</p>
+    <p> Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
 
-        <div class="jumbotron">
-            <h1>AKHAN NAMES</h1>
-           
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-            
-       
-    
-                <p>The Akhan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born </p>
-                <p>These <em>"day names"</em> have further meanings concerning the soul and the character of the person </p>
-                <p>Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
-            </div>
-            <div class="col-md-6">
-                <p>These names are also used among Ghanians living abroad and among Africans living in the diaspora who wish to identify with their ancenstral homeland</p>
-                <p>Most Ghanians have atleast one name from this system,even if they also have an Arabic or Western name.</p>
-               
-            </div>
-        </div>
     <form onsubmit="return false">
         <h2>Generate Your Akhan Name Here!</h2>
         <h3>What is your Gender?</h3>
         <div class="radio">
         <label for ="radio">
-            <input type="radio" value="male" name="sex" id="male" required />Male 
+            <input type="radio" value="male" name="gender" id="male" required />Male 
         </label><br/>
         <label for="radio" class="inline-radio"> 
-            <input type="radio" value="female" name="sex" id="female" required />Female
+            <input type="radio" value="female" name="gender" id="female" required />Female
         </label><br/>
         </div>
 
         <div class="dates">
+        <h3>Enter your Birth Dates here!</h3>
         <label>Day</label>
         <input type="text" name="day" id="day" placeholder="type in figures" required><br/>
         <label>Month</label>
@@ -49,31 +39,15 @@
         <label>Year</label>
         <input type="text" name="year" id="year" placeholder="type in figures" required>
 
-        <button type="submit" onclick="getName()" onsubmit="event,preventDefault()">Submit</button>
+        <button type="submit" onclick="getName()" onsubmit="event.preventDefault()">Submit</button>
         </div>
-  </form>
-
+      
+    </form>
     <p id="result">Your AKHAN name is: </p>
-    <script src="./js/script.js"></script>
+  
+  
 
     </div>
-<p>For more details contact:</p>
-
-<p> Email:marymaggie99@gmail.com</p>
-
-    
-
-
+    <script src="./js/script.js"></script>
 </body>
-    
-
-    
-
-    
-
-
-
-
-
-
 </html>
