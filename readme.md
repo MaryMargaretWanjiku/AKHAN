@@ -15,5 +15,11 @@
  * open terminal
  * git clone
  * cd AKHANnames
+ * open using the command "code ."
+
+ ## Contact
+  Tel: +254720047884
+  Email: marymaggie99@gmail.com
+
 
 
