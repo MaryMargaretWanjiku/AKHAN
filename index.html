@@ -14,11 +14,19 @@
         <h1>AKHAN NAMES</h1>
     </div>
     <div class="row">
+        <div class="col-md-6">
     <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.</p> 
     <p>These "day names" have further meanings concerning the soul and character of the person.</p>
     <p> Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
+        </div>
+        <div class="col-md-6">
+            <p>Most Ghanians have at least one name from this system, even if they have an English or Christian name</p>
+            <p>The naming tradition is shared throughout West Africa and African Diaspora</p>
+            <p>These names are also used among Ghanians living abroad and among Africans living in the diaspora who wish to identify with their ancestral homeland</p>
 
+        </div>
     <form onsubmit="return false">
+        <div class="radio">
         <h2>Generate Your Akhan Name Here!</h2>
         <h3>What is your Gender?</h3>
         <div class="radio">
@@ -29,6 +37,7 @@
             <input type="radio" value="female" name="gender" id="female" required />Female
         </label><br/>
         </div>
+        
 
         <div class="dates">
         <h3>Enter your Birth Dates here!</h3>
@@ -40,7 +49,8 @@
         <input type="text" name="year" id="year" placeholder="type in figures" required>
 
         <button type="submit" onclick="getName()" onsubmit="event.preventDefault()">Submit</button>
-        </div>
+       </div>
+        
       
     </form>
     <p id="result">Your AKHAN name is: </p>

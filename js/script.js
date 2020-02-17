@@ -22,9 +22,9 @@ else if(year>2020){
 var day= new Date(year + "/" + month + "/" + day);
 var birthDay=day.getDay();
 if(male.checked==true){
-    document.getElementById("result").innerHTML=("You were born on a "+ daysOfWeek[birthDay]+ "your Akhan name is"+ malesNames[birthDay])
+    document.getElementById("result").innerHTML= ("You were born on a " + daysOfWeek[birthDay] + " your Akhan name is "+ malesNames[birthDay])
 }
 else if(female.checked==true){
-    document.getElementById("result").innerHTML=("You were born on a "+ daysOfWeek[birthDay]+ "your Akhan name is"+ femalesNames[birthDay])
+    document.getElementById("result").innerHTML= ("You were born on a " + daysOfWeek[birthDay] + " your Akhan name is "+ femalesNames[birthDay])
 }
 }

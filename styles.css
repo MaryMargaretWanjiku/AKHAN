@@ -22,9 +22,11 @@ body{
     text-decoration: blueviolet;
 }
 .radio{
+    color: black;
     text-align: center;
     font-size: larger;
     font-weight: 900;
+    
 }
 h2{
     text-align: center;
